@@ -25,7 +25,14 @@ The project can be installed using two ways; CLI and Web Console.
 
     ![mainpage](images/1.png)
 
-    Fill in the information:
+    Fill in the information as follows and click `submit`:
+
+    ```txt
+      Project Name: test
+      Name: hello_world
+      Repository: git@github.com:inmanta/hello_world.git
+      Branch: master
+    ```
 
     ![createEnv](images/2.png)
 
