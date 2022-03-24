@@ -1,1 +1,22 @@
-std::print("Hello world!")
+
+# This is a very simple test project
+
+# If this file compiles, it proves the compiler works
+# If this file can be exported, the compiler can talk to the server
+
+# Here we setup a Host reference to the orchestrator itself
+orchestrator_host = std::Host(
+    name="internal",
+    os=std::linux,
+)
+
+# Here we deploy a file to the orchestrator itself
+# If this works, the agent is set up correctly.
+std::File(
+    host = orchestrator_host,
+    path="/tmp/inmanta_hello_world",
+    content="Hello World!\n",
+    owner="inmanta",
+    group="inmanta",
+    mode=666,
+)
