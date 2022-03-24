@@ -8,7 +8,7 @@ For instruction on installing the inmanta orchestrator go [here](https://docs.in
 
 # Using this repo
 
-This model installs a file on the orchestrator machine itself in `/tmp/tmp/inmanta_hello_world` as the `inmanta` user.
+This model installs a file on the orchestrator machine itself in `/tmp/inmanta_hello_world` as the `inmanta` user.
 
 To install this project from the CLI, on the orchestrator
 ```bash
