@@ -10,7 +10,7 @@ orchestrator_host = std::Host(
     os=std::linux,
 )
 
-# Here we deploy a file to the orchestrator itself
+# Next we deploy a file to the orchestrator itself
 # If this works, the agent is set up correctly.
 std::File(
     host = orchestrator_host,
