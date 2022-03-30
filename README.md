@@ -30,11 +30,11 @@ The project can be installed using two ways; CLI and Web Console.
     ```txt
       Project Name: test
       Name: hello_world
-      Repository: git@github.com:inmanta/hello_world.git
+      Repository: https://github.com/inmanta/hello_world.git
       Branch: master
     ```
 
-    ![createEnv](images/2.png)
+    ![createEnv](images/22.png)
 
     Go to settings:
 
