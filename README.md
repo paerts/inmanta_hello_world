@@ -51,3 +51,15 @@ The project can be installed using two ways; CLI and Web Console.
     Click on the `Recompile` arrow then select `Update project and recompile`:
 
     ![updateAndRecompile](images/6.png)
+
+    Click on details
+
+    ![compileDetails](images/7.png)
+
+    The status should be successful:
+
+    ![compileStatus](images/8.png)
+
+    `inmanta_hello_world` file is created on Inmanta server:
+
+    ![inmantaFile](images/9.png)
