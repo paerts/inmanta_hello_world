@@ -14,7 +14,7 @@ The project can be installed using two ways; CLI and Web Console.
 
     ```bash
     inmanta-cli project create --name test
-    inmanta-cli environment create --name hello_world --project test --repo-url git@github.com:inmanta/hello_world.git
+    inmanta-cli environment create --name hello_world --project test --repo-url https://github.com/inmanta/hello_world.git
     ```
 
     Then go to the `Web Console` and click 'Update and Recompile'
