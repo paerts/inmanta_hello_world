@@ -1,7 +1,11 @@
 name: quickstart
 modulepath: libs
 downloadpath: libs
-repo: https://github.com/inmanta/
+repo:
+    - type: package
+      url: https://pypi.org/simple/
+    - type: git
+      url: https://github.com/inmanta/
 description: A quickstart project that installs a drupal website.
 requires:
     - apache ~= 0.3.1
