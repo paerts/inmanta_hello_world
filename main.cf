@@ -1,4 +1,5 @@
 import ip
+import redhat
 vm1=ip::Host(name="vm1", os=redhat::centos7, ip="172.28.0.4", remote_agent=true, remote_user="root")
 
 # Here we setup a Host reference to the orchestrator itself
