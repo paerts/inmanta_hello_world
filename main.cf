@@ -19,11 +19,4 @@ std::File(
     mode=666,
 )
 
-std::File(
-    host = vm1,
-    path="/tmp/inmanta_hello_world",
-    content="Hello World!\n (fork)",
-    owner="inmanta",
-    group="inmanta",
-    mode=666,
-)
+
