@@ -15,3 +15,4 @@ install_mode: master
 requires:
     - ip
     - redhat
+    - std
