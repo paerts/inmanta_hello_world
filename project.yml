@@ -13,3 +13,4 @@ repo:
       url: https://github.com/inmanta/
 install_mode: master
 requires:
+    - ip =~ 1.0.0
