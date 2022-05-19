@@ -12,7 +12,7 @@ orchestrator_host = std::Host(
 std::File(
     host = orchestrator_host,
     path="/tmp/inmanta_hello_world",
-    content="Hello World!\n",
+    content="Hello World! (fork) \n",
     owner="inmanta",
     group="inmanta",
     mode=666,
@@ -21,7 +21,7 @@ std::File(
 std::File(
     host = vm1,
     path="/tmp/inmanta_hello_world",
-    content="Hello World!\n",
+    content="Hello World!\n (fork)",
     owner="inmanta",
     group="inmanta",
     mode=666,
